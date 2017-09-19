@@ -1,0 +1,305 @@
+	@font-face
+{
+	font-family: "Abel-Regular";
+	src:url('../font/Abel-Regular_0.ttf');
+}
+@font-face
+{
+	font-family: "ErasLight";
+	src:url('../font/ERASLGHT.TTF');
+}
+@font-face
+{
+	font-family: "ErasMedium";
+	src:url('../font/ERASMD.TTF');
+}
+
+
+body{
+	margin: 0;
+	font-family: "ErasLight";
+	font-size: 24px;
+	font-weight: normal;
+}
+.clear{
+	float: none;
+	clear: both;
+}
+.center{
+	width: 1020px;
+	margin: 0 auto;
+}
+/*untuk konfigurasi header*/ 
+#header{
+	padding: 25px 0;
+}
+#header #logo{
+	float: left;
+
+}
+#header	.navigation{
+	float: right;
+}
+#header	.navigation ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#header	.navigation ul li{
+	display: inline-block;
+	font-size: 25px;
+	font-family:"Abel-Regular";
+}
+#header	.navigation ul li a{
+	display: inline-block;
+	padding: 30px;
+	color: #2A7CB4;
+	text-decoration: none;
+	text-transform: uppercase;
+} 
+#header	.navigation	ul li a:hover{
+	color: #000000;
+	-webkit-transition:0,3s;
+	-moz-transition:0,3s;
+	-ms-transition:0,3s;
+	-o-transition:0,3s;
+	transition:0,3s; 
+}
+
+/* Konfigurasi banner */
+#banner{
+	background: url("../images/img_06.jpg") no-repeat center;
+	background-size: cover;
+	padding: 110px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#banner	h1{
+	font-size: 65px;
+	font-family: "Abel-Regular";
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+#banner h2{
+	font-size: 30px;
+	font-family: "ErasLight";
+	font-weight:normal;
+	margin-bottom: 20px;
+}
+.btn-primary{
+	background: transparent;
+	border: solid 2px #FFFFFF;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: "Abel-Regular";
+	font-weight: normal;
+	font-size: 30px;
+	margin-top: 20px;
+	text-decoration: none;
+	padding: 20px 35px;
+	display: inline-block;
+} 
+.btn-primary:hover{
+	background-color: #FFFFFF;
+	border-color: #000000;
+	color: 	#000000;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-ms-transition:1s;
+	-o-transition:1s;
+	transition:1s; 
+}
+/*Konfigurasi our services*/
+#our-services{
+	padding: 25px 0;
+	font-family: "Abel-Regular";
+}
+#our-services .title-content{
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #19557d;
+
+}
+#our-services .title-content span{
+	font-family: "Abel-Regular";
+	color: black;
+}
+.content-list .list-services{
+	background:url("../images/img_09.jpg") no-repeat;
+	padding: 25px;
+	float: left;
+	width: 350px;
+	color: #FFFFFF;
+}
+.content-list .list-services.last{
+	background:url("../images/img_11.jpg")no-repeat	;
+	float: right;
+}
+.content-list .list-services h2{
+	text-transform: uppercase;
+	font-family: "Abel-Regular";
+	font-size: 35px;
+	font-weight: normal;	
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.content-list .list-services .text{
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-family: "ErasLight";
+	font-size:	22px;
+}
+.content-list .list-services .button a{
+	display: inline-block;
+	padding: 10px 15px;	
+	border: solid 2px #000000;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: "ErasLight"
+	font-size: 40px;
+} 
+.content-list .list-services .button a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-ms-transition:1s;
+	-o-transition:1s;
+	transition:1s; 
+}
+/*Konfigurasi Notification*/
+
+#notification-subscribe{
+	background: #19557d;
+	padding: 25px 0;
+	margin-top: 50px;
+}
+#notification-subscribe h2{
+	font-family: "Abel-Regular";
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+#notification-subscribe h3{
+	margin-top: 25px;
+	font-size: 22px;
+	font-family: "ErasLight";
+	font-weight: normal;
+}
+#notification-subscribe .left-content{
+	float: left;
+}
+#notification-subscribe .right-content{
+	float: right;
+	padding-top: 40px;
+}
+#notification-subscribe .large-btn{
+	display: inline-block;
+	background: #19557d;
+	border: solid 2px #000000;
+	font-family: "Abel-Regular";
+	font-size: 30px;
+	padding: 20px 35px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#notification-subscribe .large-btn:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-ms-transition:1s;
+	-o-transition:1s;
+	transition:1s; 
+}
+
+/*konfigurasi footer*/
+#footer{
+	background: #5b646a;
+	padding: 25px 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-family: "ErasLight"
+	font-weight:normal;
+}
+
+/*buat jadi responsive */
+@media screen and (max-width: 1260px){
+
+	.center{
+		width: auto;
+		padding: 0 20px;
+		margin: 0;	
+	}
+}
+
+@media screen and (max-width: 900px ){
+
+	#notification-subscribe .left-content,
+	#notification-subscribe .right-content{
+		float: none;
+		text-align: center;
+	}
+	#notification-subscribe .right-content{
+		padding-top: 10px;
+	}
+	.content-list .list-services,
+	.content-list .list-services.last{
+		width: 350px;
+		display: block;
+		margin-right: 25%;
+		margin-left: 25%;	
+		float: none;
+		margin-bottom: 15px;
+
+	}
+
+}
+@media screen and (max-width: 800px ){
+
+	.content-list .list-services,
+	.content-list .list-services.last{
+		width: 350px;
+		display: block;
+		margin:auto;	
+		float: none;
+		margin-bottom: 15px;
+
+	}
+
+
+}
+@media screen and (max-width: 741px){
+
+	#header #logo,
+	#header .navigation{
+		float: none;
+		margin: auto;
+		width: auto;
+	}
+	#header #logo{
+		margin-bottom: 25px;
+	}
+	#header #logo img{
+		margin: 0 auto;
+		display: table;
+	}
+	#header .navigation ul{
+		display: table;
+		margin:0 auto;
+	}
+	#banner	h1{
+	font-size: 55px;
+	font-family: "Abel-Regular";
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 20px;
+
+}
